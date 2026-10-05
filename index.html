@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tea for Our Gossip Girlies</title>
+</head>
+
+<body>
+
+<h1>SUMMON ALL GOSSIP BADDIES ☕</h1>
+
+<p>Spill it. Read it. Don't get caught. 👀</p>
+
+<h2>💌 Today's Tea</h2>
+<p>Someone in the hallway has a SECRET...</p>
+
+<h2>📰 Latest Gossip</h2>
+
+<ul>
+  <li>Something suspicious happened at lunch 👀</li>
+  <li>Someone has a new crush 💕</li>
+  <li>A mysterious note was found... 💌</li>
+</ul>
+
+<button>SPILL THE TEA ☕</button>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Tea for Our Gossip Girlies</title>
+
+<style>
+
+body {
+  font-family: Georgia, serif;
+  background-color: #f8e8ef;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+.banner {
+  background-color: white;
+  border: 3px solid black;
+  padding: 25px;
+  margin: 25px auto;
+  max-width: 700px;
+  cursor: pointer;
+  box-shadow: 6px 6px 0px black;
+}
+
+.banner:hover {
+  transform: scale(1.02);
+}
+
+.story {
+  max-width: 750px;
+  margin: auto;
+  background-color: white;
+  padding: 35px;
+  text-align: left;
+  border: 3px solid black;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+</style>
+</head>
+
+<body>
+
+
+<!-- HOME PAGE -->
+
+<div id="home">
+
+<h1>TEA FOR OUR GOSSIP GIRLIES ☕</h1>
+
+<p>Spill it. Read it. Don't get caught. 👀</p>
+
+<p>Choose your tea...</p>
+
+
+<!-- ENEMIES TO LOVERS BANNER -->
+
+<div class="banner" onclick="showPage('enemies')">
+
+<h2>💘 ENEMIES TO LOVERS</h2>
+
+<p>They can't stand each other... or so they say.</p>
+
+</div>
+
+
+<!-- MAFIA BANNER -->
+
+<div class="banner" onclick="showPage('mafia')">
+
+<h2>🖤 MAFIA</h2>
+
+<p>Secrets, lies, and way too much drama.</p>
+
+</div>
+
+</div>
+
+
+<!-- ENEMIES TO LOVERS FULL PAGE -->
+
+<div id="enemies" class="story" style="display:none;">
+
+<h1>💘 ENEMIES TO LOVERS</h1>
+
+<p>They can't stand each other... or so everyone thinks. 👀</p>
+
+<h2>THE RIVALRY</h2>
+
+<p>
+They've been competing against each other for years.
+Grades. Awards. Sports. Even who could get the last word.
+Neither one was willing to admit defeat.
+</p>
+
+<h2>☕ THEN EVERYTHING CHANGED...</h2>
+
+<p>
+One afternoon, they were forced to work together on a secret project.
+At first, it was a disaster. They argued over everything.
+</p>
+
+<p>
+But somewhere between the arguments and late-night conversations,
+they realized they understood each other more than they expected.
+</p>
+
+<h2>👀 THE SECRET</h2>
+
+<p>
+Then one of them discovered a mysterious message hidden inside an old notebook.
+</p>
+
+<h2>“YOU'RE LOOKING IN THE WRONG DIRECTION.”</h2>
+
+<p>
+Their biggest enemy might not be each other after all.
+</p>
+
+<h2>TO BE CONTINUED... 💘</h2>
+
+<button onclick="showPage('home')">
+← BACK TO TEA ROOM
+</button>
+
+</div>
+
+
+<!-- MAFIA FULL PAGE -->
+
+<div id="mafia" class="story" style="display:none;">
+
+<h1>🖤 THE MAFIA TEA</h1>
+
+<p>Okay gossip girlies... you DID NOT hear this from me. 👀</p>
+
+<h2>THE BLACK CARD</h2>
+
+<p>
+Nobody knew why the most powerful family in the city suddenly
+disappeared from the spotlight.
+</p>
+
+<p>
+Then, during a charity gala, a black envelope appeared on the main table.
+</p>
+
+<p>
+Inside was a photograph of three people—and a handwritten note:
+</p>
+
+<h2>“ONE OF YOU BETRAYED THE FAMILY.”</h2>
+
+<p>
+By midnight, everyone was accusing everyone.
+The youngest heir disappeared before anyone could question him.
+</p>
+
+<p>
+But here's the real tea...
+</p>
+
+<h2>THE PHOTOGRAPH WAS TEN YEARS OLD. 🖤</h2>
+
+<p>
+And one person in it was supposed to be gone forever.
+</p>
+
+<h2>TO BE CONTINUED...</h2>
+
+<button onclick="showPage('home')">
+← BACK TO TEA ROOM
+</button>
+
+</div>
+
+
+<script>
+
+function showPage(page) {
+
+document.getElementById("home").style.display = "none";
+
+document.getElementById("enemies").style.display = "none";
+
+document.getElementById("mafia").style.display = "none";
+
+document.getElementById(page).style.display = "block";
+
+}
+
+</script>
+
+</body>
+</html>
+
+<!-- ARRANGED MARRIAGE BANNER -->
+
+<div class="banner" onclick="showPage('arranged')">
+
+<h2>💍 ARRANGED MARRIAGE</h2>
+
+<p>Two strangers. One agreement. Way too many secrets.</p>
+
+</div>
+
+
+<!-- ARRANGED MARRIAGE FULL PAGE -->
+
+<div id="arranged" class="story" style="display:none;">
+
+<h1>💍 ARRANGED MARRIAGE</h1>
+
+<p>They were strangers. Their families had already decided their future. 👀</p>
+
+<h2>THE AGREEMENT</h2>
+
+<p>
+Neither of them wanted the arrangement.
+They had never met before, yet their families expected them to
+pretend they were perfectly happy.
+</p>
+
+<h2>☕ THE SECRET</h2>
+
+<p>
+On the night of their first official meeting, one of them found
+a sealed letter hidden inside an old family book.
+</p>
+
+<p>
+The letter revealed something shocking:
+the arrangement had been planned years before either of them
+even knew about it.
+</p>
+
+<h2>👀 BUT WHY?</h2>
+
+<p>
+There was one name written at the bottom of the letter.
+A name neither family wanted mentioned.
+</p>
+
+<h2>“DON'T TRUST THE PERSON WHO BROUGHT YOU TOGETHER.”</h2>
+
+<p>
+Suddenly, the arrangement wasn't about marriage at all.
+Someone had brought them together for a completely different reason.
+</p>
+
+<h2>TO BE CONTINUED... 💍</h2>
+
+<button onclick="showPage('home')">
+← BACK TO TEA ROOM
+</button>
+
+</div>
+
+
+<!-- ADD THIS TO YOUR showPage FUNCTION -->
+
+<script>
+
+function showPage(page) {
+
+document.getElementById("home").style.display = "none";
+document.getElementById("enemies").style.display = "none";
+document.getElementById("mafia").style.display = "none";
+document.getElementById("arranged").style.display = "none";
+
+document.getElementById(page).style.display = "block";
+
+}
+
+</script>
+
+<div id="home">
+
+
+<div id="mafia" style="display:none;">
+
+<h1>🖤 THE MAFIA TEA</h1>
+
+<p>Okay gossip girlies... you DID NOT hear this from me. 👀</p>
+
+<h2>THE BLACK CARD</h2>
+
+<p>
+Nobody knew why the most powerful family in the city suddenly
+disappeared from the spotlight.
+</p>
+
+<p>
+Then, during a charity gala, a black envelope appeared on the main table.
+</p>
+
+<p>
+Inside was a photograph of three people—and a handwritten note:
+</p>
+
+<h2>“ONE OF YOU BETRAYED THE FAMILY.”</h2>
+
+<p>
+By midnight, everyone was accusing everyone.
+The youngest heir disappeared before anyone could question him.
+</p>
+
+<p>
+But here's the real tea...
+</p>
+
+<p>
+The photograph wasn't recent.
+</p>
+
+<h2>IT WAS TAKEN TEN YEARS AGO. 🖤</h2>
+
+<p>
+And one person in it was supposed to be dead.
+</p>
+
+<h2>TO BE CONTINUED...</h2>
+
+<button onclick="showPage('home')">← BACK TO THE TEA ROOM</button>
+
+</div>
+
+
+<script>
+
+function showPage(page) {
+  document.getElementById("home").style.display = "none";
+  document.getElementById("mafia").style.display = "none";
+  document.getElementById(page).style.display = "block";
+}
+
+</script>
+
+<!-- ROYAL BANNER -->
+
+<div class="banner" onclick="showPage('royal')">
+
+<h2>👑 ROYAL</h2>
+
+<p>Crowns, secrets, forbidden alliances, and palace drama.</p>
+
+</div>
+
+
+<!-- ROYAL FULL PAGE -->
+
+<div id="royal" class="story" style="display:none;">
+
+<h1>👑 THE ROYAL TEA</h1>
+
+<p>
+Welcome to the palace, gossip girlies... where every smile hides a secret. 👀
+</p>
+
+<h2>THE MISSING CROWN</h2>
+
+<p>
+The royal family was preparing for the biggest ceremony of the year
+when something disappeared from the palace vault.
+</p>
+
+<p>
+The ancient crown—the symbol of the entire kingdom—was gone.
+There were no broken locks. No alarms. No witnesses.
+</p>
+
+<h2>☕ EVERYONE IS SUSPECTED</h2>
+
+<p>
+The royal family immediately began questioning everyone inside the palace.
+Servants. Guards. Advisors. Even members of the royal family.
+</p>
+
+<p>
+Then a mysterious note was discovered underneath the throne.
+</p>
+
+<h2>“THE CROWN WAS NEVER MEANT FOR THE HEIR.”</h2>
+
+<p>
+Suddenly, everyone started wondering the same thing...
+Was the person next in line actually supposed to become king or queen?
+</p>
+
+<h2>👀 THE SECRET HEIR</h2>
+
+<p>
+That night, an old royal portrait was discovered hidden behind
+a bookshelf.
+</p>
+
+<p>
+There was a fourth child in the portrait—
+someone whose name had been erased from the royal records.
+</p>
+
+<h2>AND THEN...</h2>
+
+<p>
+The palace doors opened.
+A stranger walked inside wearing the missing crown.
+</p>
+
+<h2>“YOU'VE BEEN LOOKING FOR ME.” 👑</h2>
+
+<p>
+TO BE CONTINUED...
+</p>
+
+<button onclick="showPage('home')">
+← BACK TO TEA ROOM
+</button>
+
+</div>
+
+
+<!-- ADD THIS LINE INSIDE YOUR EXISTING showPage FUNCTION -->
+
+<script>
+
+document.getElementById("royal").style.display = "none";
+
+</script>
+
+
+<!-- FORBIDDEN BANNER -->
+
+<div class="banner" onclick="showPage('forbidden')">
+
+<h2>🥀 FORBIDDEN</h2>
+
+<p>They were never supposed to find each other... but secrets have a way of breaking every rule.</p>
+
+</div>
+
+
+<!-- FORBIDDEN FULL PAGE -->
+
+<div id="forbidden" class="story" style="display:none;">
+
+<h1>🥀 FORBIDDEN</h1>
+
+<p>
+Some secrets are dangerous. Some secrets are impossible to keep. 👀
+</p>
+
+<h2>THE RULE</h2>
+
+<p>
+Everyone in the kingdom knew the rule:
+the two families were never allowed to become allies.
+</p>
+
+<p>
+For generations, their families had been enemies.
+Nobody knew exactly how it started anymore.
+They only knew that the feud could never end.
+</p>
+
+<h2>🌙 THE SECRET MEETING</h2>
+
+<p>
+Then, one night, two members of the rival families
+unexpectedly met in an old garden behind the palace.
+</p>
+
+<p>
+Neither of them was supposed to be there.
+Neither of them was supposed to trust the other.
+</p>
+
+<h2>☕ BUT THEN...</h2>
+
+<p>
+One of them revealed a secret that changed everything.
+</p>
+
+<h2>“YOUR FAMILY DIDN'T START THE FEUD.”</h2>
+
+<p>
+They discovered that someone had been lying to both families
+for years.
+</p>
+
+<h2>👀 THE REAL ENEMY</h2>
+
+<p>
+Hidden inside an old family journal was proof that the feud
+had been created by someone who wanted both families divided.
+</p>
+
+<p>
+But before they could reveal the truth...
+the journal disappeared.
+</p>
+
+<h2>🥀 SOMEONE KNOWS</h2>
+
+<p>
+A single message was left behind:
+</p>
+
+<h2>“STOP SEARCHING BEFORE THEY FIND YOU.”</h2>
+
+<p>
+Now they have to decide whether to expose the truth
+or protect their families from the secret.
+</p>
+
+<h2>TO BE CONTINUED... 🥀</h2>
+
+<button onclick="showPage('home')">
+← BACK TO TEA ROOM
+</button>
+
+</div>
+
+
+</div>
+<h2>💋 Gossip Girlies Only</h2>
+<p>Got some tea? Keep it anonymous...</p>
+
+</body>
+</html>
